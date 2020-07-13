@@ -7,8 +7,7 @@ import { GroupTitle } from './components/group-title';
 import  {Filters}  from './components/filter';
 import { Repo } from './components/repo';
 import moment from 'moment';
-import useFetch from 'use-http/dist';
-import PageLoader from './components/page-loader';
+ import PageLoader from './components/page-loader';
 
 function transformFilter({startDate,endDate,language}) {
   const transformFilters={};
